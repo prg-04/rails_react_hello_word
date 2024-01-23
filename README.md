@@ -1,1 +1,1 @@
-# rails_react_hello_word
+# rails_react_hello_world
