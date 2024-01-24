@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # This file should ensure the existence of records required to run the application in every environment (production,
 # development, test). The code here should be idempotent so that it can be executed at any point in every environment.
 # The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
@@ -12,11 +14,11 @@ Greeting.destroy_all
 
 # Array of greeting
 greetings = [
-  "Hello, welcome to our platform!",
-  "Greetings from our team!",
+  'Hello, welcome to our platform!',
+  'Greetings from our team!',
   "Hi there! We're glad you're here.",
-  "Welcome aboard!",
-  "Warm greetings to all our new users."
+  'Welcome aboard!',
+  'Warm greetings to all our new users.'
 ]
 
 # Create 5 greetings
